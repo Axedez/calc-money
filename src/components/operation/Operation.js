@@ -34,7 +34,7 @@ const Operation = ({
           type="button"
           className="operation__btn operation__btn-subtract"
         >
-          ВИТРАТА
+          VITRATA
         </button>
         <button
           onClick={() => addTransaction(true)}
