@@ -239,16 +239,13 @@ main {
   color: var(--positive-color);
 }
 
-@media (max-width: 414px) {
+@media (max-width: 400px) {
   body {
     font-size: 14px;
   }
   .container {
     width: 320px;
     padding: 10px;
-  }
-  .history__delete {
-    opacity: 1;
   }
 }
 
