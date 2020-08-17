@@ -97,17 +97,17 @@ class App extends Component {
               totalBalance={this.state.totalBalance}
             />
 
-            <History
-              transactions={this.state.transactions}
-              delTransaction={this.delTransaction}
-            />
-
             <Operation
               addTransaction={this.addTransaction}
               addAmount={this.addAmount}
               addDescription={this.addDescription}
               description={this.state.description}
               amount={this.state.amount}
+            />
+
+            <History
+              transactions={this.state.transactions}
+              delTransaction={this.delTransaction}
             />
           </div>
         </main>
